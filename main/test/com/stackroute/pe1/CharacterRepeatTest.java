@@ -43,5 +43,13 @@ public class CharacterRepeatTest {
         //Assert
         assertEquals( "Empty string", result);
     }
+    @Test
+    public void givenStringContainsNullShouldReturnNullMessage(){
+        //Arrange
+        //Act
+        String result = characterRepeat.repeat(null, 3);
+        //Assert
+        assertEquals( null, result);
+    }
 
 }

@@ -2,7 +2,7 @@ package com.stackroute.pe1;
 
 import java.util.Scanner;
 
-public class Character {
+public class CharacterType {
 
         public String DisplayType(char character){
             String result;

@@ -8,7 +8,11 @@ public class TomOrJerry {
             result="Tom";
         }else if(number % 2 == 0 &&(number >20 && number<30)){
             result = "Jerry";
-        }else {
+        }else if(number < 0)
+        {
+            result = "Negative number not allowed";
+        }
+        else {
             return "Number is not there between 20 to 30";
         }
         return result;

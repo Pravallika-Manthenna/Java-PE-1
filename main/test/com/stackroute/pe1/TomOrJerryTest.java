@@ -43,5 +43,13 @@ TomOrJerry tomorjerry;
         //Assert
         assertEquals("Number is not there between 20 to 30", result);
     }
+    @Test
+    public void givenStringContainsIntegerShouldReturnMessage(){
+        //Arrange
+        //Act
+        String result = tomorjerry.odd(-5);
+        //Assert
+        assertEquals("Negative number not allowed", result);
+    }
 
 }

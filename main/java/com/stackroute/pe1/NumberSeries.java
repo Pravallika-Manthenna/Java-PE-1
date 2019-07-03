@@ -4,8 +4,11 @@ public class NumberSeries {
 
     public String IterationNumbers(int number) {
         String str = "";
-        if (number < 1) {
-            return "error";
+        if(number < 0){
+            return "Negative numbers are not allowed";
+        }
+        else if (number < 1) {
+            return "Cannot be Less than 1";
         } else {
 
             for (int i = 1; i <= number; i++) {
@@ -14,6 +17,5 @@ public class NumberSeries {
                 }
             }
         }return str;
-
     }
 }

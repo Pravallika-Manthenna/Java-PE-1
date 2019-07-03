@@ -14,7 +14,7 @@ public class GuessedNumber {
             return string;
         }
         else{
-            string="Error";
+            string="";
         }
         return string;
     }

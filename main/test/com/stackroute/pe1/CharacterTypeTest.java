@@ -6,12 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CharacterTest {
- Character character;
+public class CharacterTypeTest {
+ CharacterType character;
     @Before
     public void setUp(){
         System.out.println("before");
-        character = new Character();
+        character = new CharacterType ();
     }
 
     @After

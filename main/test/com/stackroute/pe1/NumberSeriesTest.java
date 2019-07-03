@@ -33,7 +33,15 @@ public class NumberSeriesTest {
         //Act
         String result = numberseries.IterationNumbers(0);
         //Assert
-        assertEquals( "error", result);
+        assertEquals( "Cannot be Less than 1", result);
+    }
+    @Test
+    public void givenStringContainsNegativeNumberShouldReturnNegativeMessage(){
+        //Arrange
+        //Act
+        String result = numberseries.IterationNumbers(-3);
+        //Assert
+        assertEquals( "Negative numbers are not allowed", result);
     }
 
 }

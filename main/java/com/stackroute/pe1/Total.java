@@ -15,7 +15,7 @@ public class Total {
 
             }
         } catch (Exception exception) {
-            string = "Error";
+            string = "Throws exception";
             return string;
         }
         for (int i = 0; i < array.length; i++) {

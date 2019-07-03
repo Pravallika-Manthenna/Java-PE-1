@@ -39,7 +39,7 @@ public class TotalTest {
         String result= total.total("23 4 p");
 
 //Assert
-        assertEquals("Error", result);
+        assertEquals("Throws exception", result);
 
     }
     @Test
@@ -50,7 +50,7 @@ public class TotalTest {
         String result= total.total("null");
 
 //Assert
-        assertEquals("Error", result);
+        assertEquals("Throws exception", result);
 
     }
 

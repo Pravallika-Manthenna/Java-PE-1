@@ -4,7 +4,10 @@ import java.util.Scanner;
 public class CharacterRepeat {
 
     public String repeat(String str,int number){
-        if(str==" "){
+        if (str == null){
+            return null;
+        }
+        else if(str==" "){
             return "Empty string";
         }
 
