@@ -10,14 +10,13 @@ public class CharacterRepeatTest {
     CharacterRepeat characterRepeat;
     @Before
     public void setUp()  {
-        System.out.println("Before");
+
         characterRepeat= new CharacterRepeat();
     }
 
     @After
     public void tearDown() {
         characterRepeat = null;
-        System.out.println("After");
     }
     @Test
     public void givenStringContainsNumbersShouldReturnString(){

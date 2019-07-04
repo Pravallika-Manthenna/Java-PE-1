@@ -10,14 +10,14 @@ public class NumberSeriesTest {
     NumberSeries numberseries;
     @Before
     public void setUp() {
-        System.out.println("Before");
+
         numberseries = new NumberSeries();
     }
 
     @After
     public void tearDown() {
         numberseries=null;
-        System.out.println("after");
+
     }
     @Test
     public void givenStringContainsNumbersShouldReturnNumberSeries(){

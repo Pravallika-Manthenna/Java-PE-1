@@ -10,14 +10,13 @@ public class CharacterTypeTest {
  CharacterType character;
     @Before
     public void setUp(){
-        System.out.println("before");
+
         character = new CharacterType ();
     }
 
     @After
     public void tearDown(){
         character = null;
-     System.out.println("after");
 
     }
     @Test

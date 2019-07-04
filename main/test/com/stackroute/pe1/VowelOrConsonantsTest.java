@@ -10,7 +10,7 @@ public class VowelOrConsonantsTest {
         VowelOrConsonants vowelorconsonants;
 @Before
 public void setUp(){
-        System.out.println("Before");
+
         vowelorconsonants = new VowelOrConsonants();
 
         }
@@ -18,7 +18,7 @@ public void setUp(){
 @After
 public void tearDown(){
         vowelorconsonants = null;
-        System.out.println("after");
+
         }
         @Test
         public void givenStringContainsOneCharShouldReturnVowelMessage(){

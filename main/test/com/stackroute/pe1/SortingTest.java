@@ -10,7 +10,7 @@ public class SortingTest {
     String actualresult;
     String expectedresult;
     @Before
-    public void setUp()throws Exception {
+    public void setUp() {
         sort = new Sorting();
     }
 

@@ -11,13 +11,13 @@ public class GuessedNumberTest {
     GuessedNumber num;
     @Before
     public void setUp(){
-        System.out.println("Before");
+
         num = new GuessedNumber();
     }
 
     @After
     public void tearDown(){
-        System.out.println("After");
+
         num = null;
     }
     @Test

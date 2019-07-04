@@ -10,7 +10,7 @@ public class StringReverseTest {
     StringReverse stringreverse;
     @Before
     public void setUp() {
-        System.out.println("Before");
+
         stringreverse = new StringReverse();
 
     }
@@ -18,7 +18,7 @@ public class StringReverseTest {
     @After
     public void tearDown() {
         stringreverse = null;
-        System.out.println("After");
+
     }
     @Test
         public void givenStringContainsStringShouldReturnReverseString(){

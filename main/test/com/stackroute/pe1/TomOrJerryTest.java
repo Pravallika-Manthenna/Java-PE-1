@@ -10,13 +10,13 @@ public class TomOrJerryTest {
 TomOrJerry tomorjerry;
     @Before
     public void setUp(){
-        System.out.println("Before");
+
         tomorjerry = new TomOrJerry();
     }
 
     @After
     public void tearDown(){
-        System.out.println("After");
+
         tomorjerry = null;
     }
     @Test

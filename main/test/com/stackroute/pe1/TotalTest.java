@@ -11,14 +11,14 @@ public class TotalTest {
     Total total;
     @Before
     public void setUp() {
-        System.out.println("Before");
+
         total = new Total();
     }
 
     @After
     public void tearDown() {
         total= null;
-        System.out.println("Aftre");
+
     }
     @Test
     public void givenOneStringShouldReturnSum() {
