@@ -1,6 +1,6 @@
 package com.stackroute.pe1;
 import java.util.Scanner;
-
+// program to find palindrome or not
 public class Palindrome {
     String result;
         public String DisplayPalindrome(int num){

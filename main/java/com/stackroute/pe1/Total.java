@@ -1,5 +1,5 @@
 package com.stackroute.pe1;
-
+// program to add the numbers in an array
 public class Total {
 
     public String total(String number)//Method to add numbers in array

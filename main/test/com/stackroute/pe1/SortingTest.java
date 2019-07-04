@@ -1,6 +1,4 @@
 package com.stackroute.pe1;
-
-import com.stackroute.pe1.Sorting;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

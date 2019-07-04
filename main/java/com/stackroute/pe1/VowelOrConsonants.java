@@ -1,8 +1,8 @@
 package com.stackroute.pe1;
-
+// program to find the given letter is vowel or consonant
 import java.util.Scanner;
 public class  VowelOrConsonants {
-
+// method to check for vowels or consonants
        public String CheckVowelOrConsonants(String sentence){
         String result="";
 
